@@ -1,0 +1,129 @@
+#main,#app{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+  }
+  .app_header{
+    position: relative;
+    flex: 0 0 auto;
+    z-index: 2;
+  }
+  .app_header .title{
+    margin-left: 16px;
+    color: #fff;
+  }
+  .app_content{
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+  }
+  .app_nav{
+    position: relative;
+    flex: 0 0 180px;
+    background-color: #333744;
+  }
+  .app_right{
+    flex: 1;
+    overflow: auto;
+    padding: 20px;
+  }
+  .app_right::-webkit-scrollbar{
+	 	width: 6px;
+	    height: 6px;
+    	background: #CCC;
+	}
+  .app_rightl::-webkit-scrollbar-thumb{
+	      background: #999;
+   }
+  .breadcrumb{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+/*头部*/
+.el-menu{
+  border-radius: 0px;
+}
+.el-dropdown-link{
+  cursor:pointer
+}
+.header-wraper li {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.title {
+    padding: 1em .2em;
+}
+.title span {
+    font-size: 1.4em;
+    margin-left: 5px;
+}
+.el-select-dropdown__list{
+  max-height: 187px !important;
+}
+.option {
+    padding-top: 10px;
+}
+.user .el-dropdown {
+    position: absolute;
+    right: 20px;
+    color: #fff !important;
+    line-height: 59px;
+	top:0;
+}
+.user_dropdown{ padding:0 !important; margin:0 !important;}
+.user_dropdown .menu__item:hover{ background-color:#fff !important;}
+.user_dropdown .menu__item:hover a{ color: #20a0ff !important;}
+.head-portrait{
+  height: 35px;
+  top: 11px;
+  position: relative;
+  border-radius: 20px;
+}
+.login{
+  text-decoration: inherit;
+  color: #999;
+}
+.menu__item{
+  text-align: center;
+}
+.el-menu{
+  background: #373d41;
+}
+/*左侧*/
+.el-menu-item{
+      list-style-type: none;
+  }
+  .el-collapse-item__content{
+    padding: 0 !important;
+  }
+  .el-collapse-item__wrap{
+    background-color: #333744 !important;
+    border-bottom:0px !important;
+  }
+  .el-menu-item, .el-submenu__title,.el-collapse-item__content{
+    color: #fff !important;
+  }
+  .el-collapse-item__header{
+        background: #42485B !important;
+        border-bottom:0px !important;
+  }
+  .el-collapse{
+    border:none !important;
+  }
+  .el-collapse-item__header{
+    color: #fff !important;
+  }
+  .el-menu-itms{
+    margin: 0 !important;
+    padding: 0px !important;
+  }
+  .el-menu-item:hover{
+    background: #4A5064 !important;
+  }
+  .el-icon-setting{
+    margin-right: 20px !important;
+  }  
+  .el-menu-item a{ color:#fff !important;}
